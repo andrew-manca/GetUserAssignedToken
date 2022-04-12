@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "functionTimeout": "00:06:00",
+  "logging": {
+    "logLevel": {
+      "default": "None",
+      "Host.Triggers.DurableTask": "Warning",
+      "Host.Results": "Debug",
+      "Function": "None",
+      "Function.Function1": "Information"
+    },
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": false
+      }
+    }
+  }
+}
